@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphClustering", "GraphClustering\GraphClustering.csproj", "{C6643085-4853-4562-A790-466FE944E36A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphClustering.Algorithms", "..\..\graph-clustering\GraphClustering\GraphClustering.Algorithms\GraphClustering.Algorithms.csproj", "{8BE94059-E561-4A94-8615-7C81B52641BB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphClustering.Algorithms.Abstractions", "..\..\graph-clustering\GraphClustering\GraphClustering.Algorithms.Abstractions\GraphClustering.Algorithms.Abstractions.csproj", "{5D02121D-F441-4D22-BD6C-B9E83429FD76}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphClustering.Graph.Abstractions", "..\..\graph-clustering\GraphClustering\GraphClustering.Graph.Abstractions\GraphClustering.Graph.Abstractions.csproj", "{02C2F433-639C-4E5A-90FC-A30C5BBDE915}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C6643085-4853-4562-A790-466FE944E36A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6643085-4853-4562-A790-466FE944E36A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6643085-4853-4562-A790-466FE944E36A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6643085-4853-4562-A790-466FE944E36A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BE94059-E561-4A94-8615-7C81B52641BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BE94059-E561-4A94-8615-7C81B52641BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BE94059-E561-4A94-8615-7C81B52641BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BE94059-E561-4A94-8615-7C81B52641BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D02121D-F441-4D22-BD6C-B9E83429FD76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D02121D-F441-4D22-BD6C-B9E83429FD76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D02121D-F441-4D22-BD6C-B9E83429FD76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D02121D-F441-4D22-BD6C-B9E83429FD76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02C2F433-639C-4E5A-90FC-A30C5BBDE915}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02C2F433-639C-4E5A-90FC-A30C5BBDE915}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02C2F433-639C-4E5A-90FC-A30C5BBDE915}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02C2F433-639C-4E5A-90FC-A30C5BBDE915}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5E0733D4-B7F5-4CA9-8ABD-B145FBB5F789}
+	EndGlobalSection
+EndGlobal
